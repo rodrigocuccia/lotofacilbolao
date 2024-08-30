@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Function to calculate factorial
+# Funcao pra calcular fatorial
 factorial() {
     n=$1
     fact=1
@@ -14,8 +14,8 @@ factorial() {
 n=19
 k=15
 
-# Calculate n! / (k! * (n-k)!)
-combinations=$(echo "scale=0; $(factorial $n) / ($(factorial $k) * $(factorial $(($n - $k))))" | bc)
+# Calculando n! / (k! * (n-k)!)
+combinacaoes=$(echo "scale=0; $(factorial $n) / ($(factorial $k) * $(factorial $(($n - $k))))" | bc)
 
-echo "Total number of combinations: $combinations"
+echo "Numero total de combinacoes: $combinacoes"
 
