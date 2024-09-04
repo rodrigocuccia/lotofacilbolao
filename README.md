@@ -1,6 +1,6 @@
 # Lotacalculadora
 
-Lotocalculadora.exe calcula seues jogos e chances para Lotofacil da Caixa
+Lotocalculadora.exe calcula seus jogos e chances para a Lotofacil da Caixa
 
 ## Instalacao
 
