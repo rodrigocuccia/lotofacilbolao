@@ -14,17 +14,8 @@ Multiplas Apostas:
 Escolha sua porcentagem para ganhar:
 
 ```
-
 ## Open Source
-
 Pull request sao bem vindos. Crie issues para qualquer bug encontrado.
+
 ## License
-
 Free
-
-
-
-
-
-
-
