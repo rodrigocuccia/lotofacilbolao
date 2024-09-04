@@ -5,7 +5,9 @@ Lotocalculadora.exe calcula seus jogos e chances para a Lotofacil da Caixa
 ## Instalacao
 
 Download [LotocalculadoraSetup.exe](https://github.com/lotofacilbolao/LotocalculadoraSetup.exe) para instalar o programa.
+
 Avançe até o sucesso da instalaçao.
+
 Localizaçao: C:\ProgramFile(x86)\Lotocalculadora\Lotocalculadora.exe
 
 
