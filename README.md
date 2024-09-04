@@ -17,6 +17,9 @@ Reset: Limpa os números selecionados e as apostas salvas no modo Multiplas Apos
 
 Escolha sua porcentagem para ganhar: Insira um valor de 1 a 100 para saber quantos jogos serao necessários para se obter a porcentagem desejada. Valores de jogos incluídos.
 
+## Banco de dados
+
+O arquivo jogos.txt contém todos os jogos já sorteados pela Caixa desde 2003 até 28/08/2024
 ```
 ## Open Source
 Pull request sao bem vindos. Crie issues para qualquer bug encontrado.
