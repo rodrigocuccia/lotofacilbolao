@@ -25,7 +25,7 @@ Escolha sua porcentagem para ganhar: Insira um valor de 1 a 100 para saber quant
 
 ## Banco de dados
 
-O arquivo jogos.txt contém todos os jogos já sorteados pela Caixa desde 2003 até 28/08/2024
+O arquivo jogos.txt contém todos os jogos já sorteados pela Caixa desde 2003 até 12/08/2024
 
 ## Requerimentos
 Windows 7, 8, 8.1, 10 e 11.
