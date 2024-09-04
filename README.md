@@ -1,12 +1,12 @@
-# Foobar
+# Lotacalculadora
 
-Foobar is a Python library for dealing with word pluralization.
+Lotocalculadora.exe calcula seues jogos e chances para Lotofacil da Caixa
 
-## Installation
+## Instalacao
 
 Download [LotocalculadoraSetup.exe](https://github.com/lotofacilbolao/LotocalculadoraSetup.exe) para instalar o programa.
 
-## Usage
+## Uso
 
 Aposta Única:
 Multiplas Apostas:
