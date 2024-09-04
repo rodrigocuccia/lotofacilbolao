@@ -8,10 +8,14 @@ Download [LotocalculadoraSetup.exe](https://github.com/lotofacilbolao/Lotocalcul
 
 ## Uso
 
-Aposta Única:
-Multiplas Apostas:
+Aposta Única: Selecione de 15 a 20 números e clique em Calcular
 
-Escolha sua porcentagem para ganhar:
+Multiplas Apostas: Selecione de 15 a 20 números e clique em Add Aposta. Após adicionar a quantidade necessária de jogos clique em Calcular
+
+Reset: Limpa os números selecionados e as apostas salvas no modo Multiplas Apostas
+
+
+Escolha sua porcentagem para ganhar: Insira um valor de 1 a 100 para saber quantos jogos serao necessários para se obter a porcentagem desejada. Valores de jogos incluídos.
 
 ```
 ## Open Source
