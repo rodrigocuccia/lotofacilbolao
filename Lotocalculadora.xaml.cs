@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -119,6 +119,7 @@ namespace LotteryApp
 
             double totalOdds = 0;
             List<HashSet<int>> allBets = new List<HashSet<int>>();
+            int totalCombinationsAlreadyDrawn = 0; // Keep track of drawn combinations
 
             if (multipleBets.Count > 0)
             {
@@ -143,7 +144,8 @@ namespace LotteryApp
 
                 if (drawnCombinations.Any())
                 {
-                    resultMessage.AppendLine("Os jogos abaixo ja foram sorteados anteriormente:");
+                    totalCombinationsAlreadyDrawn += drawnCombinations.Count; // Count how many have been drawn
+                    resultMessage.AppendLine("Os jogos abaixo já foram sorteados anteriormente:");
                     foreach (var combination in drawnCombinations)
                     {
                         string combinationString = string.Join(", ", combination);
@@ -153,24 +155,36 @@ namespace LotteryApp
                 }
                 else
                 {
-                    resultMessage.AppendLine("Dessa combinacao nenhum jogo foi sorteado anteriormente.");
+                    resultMessage.AppendLine("Dessa combinação nenhum jogo foi sorteado anteriormente.");
                 }
 
+                // Calculate odds based on the number of selections in the bet
                 double totalBalls = 25;
                 double drawnBalls = 15;
-                double totalSelections = bet.Count;
+                int totalSelections = bet.Count;
 
+                // Dynamically adjust the number of combinations based on game size
+                double totalCombinations = GetTotalCombinations(totalSelections); // New function to get total combinations
+
+                // Calculate odds
                 double odds = CalculateOdds(totalBalls, drawnBalls, totalSelections);
                 totalOdds += odds;
 
                 resultMessage.AppendLine(); // Add a newline between different bets
             }
 
+            // Adjust odds based on the number of combinations that have already been drawn
+            if (totalCombinationsAlreadyDrawn > 0)
+            {
+                double validCombinations = GetTotalCombinations(allBets.First().Count) - totalCombinationsAlreadyDrawn;
+                totalOdds = (totalOdds * validCombinations) / GetTotalCombinations(allBets.First().Count);
+            }
+
             double winningOdds = 1 / totalOdds;
             double percentage = totalOdds * 100;
 
             resultMessage.AppendLine($"Sua chance combinada de ganhar: 1 em {Math.Round(winningOdds):N0}");
-            resultMessage.AppendLine($"A procentagem: {percentage:F8}%");
+            resultMessage.AppendLine($"A porcentagem: {percentage:F8}%");
 
             // Show the aggregated result in a single message box
             MessageBox.Show(resultMessage.ToString());
@@ -180,9 +194,32 @@ namespace LotteryApp
             {
                 string clipboardText = string.Join(Environment.NewLine, drawnCombinationsForClipboard);
                 Clipboard.SetText(clipboardText);
-                MessageBox.Show("Os jogos que ja sairam foram copiados para a area de transferencia.");
+                MessageBox.Show("Os jogos que já saíram foram copiados para a área de transferência.");
             }
         }
+
+        // New function to dynamically calculate the total combinations based on selected numbers
+        private double GetTotalCombinations(int selectedNumbersCount)
+        {
+            switch (selectedNumbersCount)
+            {
+                case 15:
+                    return Combinations(25, 15); // Total combinations for 15 numbers
+                case 16:
+                    return Combinations(25, 16); // Total combinations for 16 numbers
+                case 17:
+                    return Combinations(25, 17); // Total combinations for 17 numbers
+                case 18:
+                    return Combinations(25, 18); // Total combinations for 18 numbers
+                case 19:
+                    return Combinations(25, 19); // Total combinations for 19 numbers
+                case 20:
+                    return 15504; // Precomputed for 20 numbers
+                default:
+                    throw new ArgumentException("Invalid number of selected numbers");
+            }
+        }
+
 
 
         private List<HashSet<int>> HasCombinationBeenDrawnBefore(List<int> userSelection)
