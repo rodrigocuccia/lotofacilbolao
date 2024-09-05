@@ -28,7 +28,8 @@ O arquivo jogos.txt contém todos os jogos já sorteados pela Caixa desde 2003 a
 ## Cálculo das combinaçoes
 
 C(n,k)= k!(n−k)! / n!
-​
+
+
 Exemplo com um jogo de 20 números:
 
 C(20,15)= 15!×5! / 20! = 15504 combinaçoes de 15 números.
