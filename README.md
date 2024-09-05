@@ -39,7 +39,7 @@ C(20,15)= 15!×5! / 20! = 15504 combinaçoes de 15 números.
 Probabilidade de ganhar: 
 Chance = C(quantidade de numeros selecionados,15) / C(25,15)
 
-| Numeros Selecionados | Combinaçoes Vencedores | Total Combinaçoes (C(25, 15)) | Probabilidade (1 em x) |
+| Numeros Selecionados | Combinaçoes | Total Combinaçoes (C(25, 15)) | Probabilidade (1 em x) |
 |:-------------------:|:---------------------:|:----------------:|:-----------------:|
 | 15                  | C(15,15)=1            | C(25,15)=3268760 | 1 em 3268760      |
 | 16              | C(16,15)=16                | C(25,15)=3268760           | 1 em 204297            |
