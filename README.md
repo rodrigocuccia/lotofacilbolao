@@ -31,12 +31,12 @@ Probabilidade de ganhar:
 Chance = C(quantidade de numeros selecionados,15) / C(25,15)
 
 
-| 	Numbers Selected	 | 	Winning Combinations	 | 	Total Combinations (C(25, 15))	 |  Odds (1 in X)	 | 
-| 	:-----:	 | 	:-----:	 | 	:-----:	 | 
-| 	Value1	| 	Value2	| 	Value3	 | 
-| 	Value1	| 	Value2	| 	Value3	 | 
-| 	Value1	| 	Value2	| 	Value3	 | 
-| 	Value1	| 	Value2	| 	Value3	 | 
+header1,header2,header3
+Value1,Value2,Value3
+Value1,Value2,Value3
+Value1,Value2,Value3
+Value1,Value2,Value3
+Value1,Value2,Value3
 
 ​	
  
