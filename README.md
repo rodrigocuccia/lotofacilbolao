@@ -37,7 +37,7 @@ Numbers Selected | Winning Combinations | Total Combinations (C(25, 15)) | Odds 
 
 | 	Numbers Selected	 | 	Winning Combinations	 | 	Total Combinations (C(25, 15))	 |  Odds (1 in X)	 | 
 | 	:-----:	 | 	:-----:	 | 	:-----:	 | 
-| 	15	| 	C(15,15)=1	| 	C(25,15)=3268760	 | 1 in 3268760 |
+| 	15	| 	C(15,15)=1	| 	C(25,15)=3268760	|  1 in 3268760 |
 | 	Value1	| 	Value2	| 	Value3	 | 
 | 	Value1	| 	Value2	| 	Value3	 | 
 | 	Value1	| 	Value2	| 	Value3	 | 
