@@ -48,7 +48,7 @@ Chance = C(quantidade de numeros selecionados,15) / C(25,15)
 | 19              | C(19,15)=3876                | C(25,15)=3268760           | 1 em 843          |
 | 20              | C(20,15)=15504              | C(25,15)=3268760          | 1 em 211
 
-IMPORTANTE: o código leva em consideraçao os jogos que ja sairam como fator de reduçao de chance.Caso o jogo já tenha saído anteriormente, a porcentagem de ganho diminui.
+IMPORTANTE: o código leva em consideraçao os jogos que ja sairam como fator de reduçao de chance. Caso o jogo já tenha saído anteriormente, a porcentagem de ganho diminui.
 
 Cálculo:
 
