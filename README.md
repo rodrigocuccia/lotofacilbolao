@@ -30,13 +30,14 @@ O arquivo jogos.txt contém todos os jogos já sorteados pela Caixa desde 2003 a
 Probabilidade de ganhar: 
 Chance = C(quantidade de numeros selecionados,15) / C(25,15)
 
-| 	NumerosSelecionados	 | 	CombinaçoesVencedores	 | 	TotalCombinaçoes	 |  Probabilidade1emx  |
-| 	:-----:	 | 	:-----:	 | 	:-----:	 | 
-| 	15	| 	Value2	| 	Value3	 | 
-| 	Value1	| 	Value2	| 	Value3	 | 
-| 	Value1	| 	Value2	| 	Value3	 | 
-| 	Value1	| 	Value2	| 	Value3	 | 
-| 	Value1	| 	Value2	| 	Value3	 | 
+| Numeros Selecionados | Combinaçoes Vencedores | Total Combinaçoes (C(25, 15)) | Probabilidade (1 em x) |
+|:-------------------:|:---------------------:|:----------------:|:-----------------:|
+| 15                  | Value2                | Value3           | Value4            |
+| Value1              | Value2                | Value3           | Value4            |
+| Value1              | Value2                | Value3           | Value4            |
+| Value1              | Value2                | Value3           | Value4            |
+| Value1              | Value2                | Value3           | Value4            |
+
 
 | 	header1	 | 	header2	 | 	header3	 | 
 | 	:-----:	 | 	:-----:	 | 	:-----:	 | 
