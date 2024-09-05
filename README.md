@@ -10,8 +10,6 @@ Avançe até o sucesso da instalaçao.
 
 Localizaçao: C:\ProgramFile(x86)\Lotocalculadora\Lotocalculadora.exe
 
-
-
 ## Uso
 
 Aposta Única: Selecione de 15 a 20 números e clique em Calcular
@@ -27,7 +25,20 @@ Escolha sua porcentagem para ganhar: Insira um valor de 1 a 100 para saber quant
 
 O arquivo jogos.txt contém todos os jogos já sorteados pela Caixa desde 2003 até 12/08/2024
 
+## Cálculo de probabilidades
+
+Probabilidade de ganhar: 
+Chance = C(quantidade de numeros selecionados,15) / C(25,15)
+Numbers Selected,Winning Combinations,Total Combinations,(C(25, 15)),Odds (1 in X)
+
+
+​	
+ 
+
+
+
 ## Requerimentos
+
 Windows 7, 8, 8.1, 10 e 11.
 ```
 ## Open Source
