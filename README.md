@@ -58,6 +58,9 @@ Combinaçao válida = Total de Combinaçoes - Jogos que Sairam
 
 Chance Ajustada = 1 / Combinaçao válida
 
+Porcentagem: Porcentagem de Decréscimo = (Jogos que Sairam / Total de Combinaçoes) * 100
+
+
 ## Requerimentos
 
 Windows 7, 8, 8.1, 10 e 11.
