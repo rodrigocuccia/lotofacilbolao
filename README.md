@@ -32,24 +32,12 @@ Chance = C(quantidade de numeros selecionados,15) / C(25,15)
 
 | Numeros Selecionados | Combinaçoes Vencedores | Total Combinaçoes (C(25, 15)) | Probabilidade (1 em x) |
 |:-------------------:|:---------------------:|:----------------:|:-----------------:|
-| 15                  | Value2                | Value3           | Value4            |
-| Value1              | Value2                | Value3           | Value4            |
-| Value1              | Value2                | Value3           | Value4            |
-| Value1              | Value2                | Value3           | Value4            |
-| Value1              | Value2                | Value3           | Value4            |
-
-
-| 	header1	 | 	header2	 | 	header3	 | 
-| 	:-----:	 | 	:-----:	 | 	:-----:	 | 
-| 	Value1	| 	Value2	| 	Value3	 | 
-| 	Value1	| 	Value2	| 	Value3	 | 
-| 	Value1	| 	Value2	| 	Value3	 | 
-| 	Value1	| 	Value2	| 	Value3	 | 
-| 	Value1	| 	Value2	| 	Value3	 | 
-
-​	
- 
-
+| 15                  | C(15,15)=1            | C(25,15)=3268760 | 1 em 3268760      |
+| 16              | C(16,15)=16                | C(25,15)=3268760           | 1 em 204297            |
+| 17              | C(17,15)=136                | C(25,15)=3268760           | 1 em 24049        |
+| 18              | C(18,15)=816                | C(25,15)=3268760           | 1 em 4003            |
+| 19              | C(19,15)=3876                | C(25,15)=3268760           | 1 em 843          |
+| 20              | C(20,15)=15504              | C(25,15)=3268760          | 1 em 211
 
 
 ## Requerimentos
